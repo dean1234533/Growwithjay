@@ -1876,3 +1876,5 @@ html {
     background: linear-gradient(180deg, #0009 0%, #000b 55%, #000d 100%);
   }
 }
+
+.review-stars { font-size: 24px; letter-spacing: 5px; line-height: 1.4; margin: 8px 0 4px; }
