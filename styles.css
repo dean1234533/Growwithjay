@@ -1879,7 +1879,7 @@ html {
 
 .review-stars { font-size: 24px; letter-spacing: 5px; line-height: 1.4; margin: 8px 0 4px; }
 
-/* Preserve the entire portrait in the online coaching card. */
+/* Landscape stock photography fills the online coaching card. */
 .service-photo-online { background: #171717; }
-.service-photo-online img { object-fit: contain; object-position: center; }
+.service-photo-online img { object-fit: cover; object-position: center; }
 .card:hover .service-photo-online img { transform: none; }
