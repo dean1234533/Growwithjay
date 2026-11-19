@@ -68,3 +68,12 @@ figcaption{font-weight:600;font-size:14px}figcaption span{display:block;color:va
 .foot-brand{display:flex;gap:12px;align-items:center;justify-content:center;font:500 18px Oswald;color:var(--text);margin-bottom:16px}
 .site-footer nav,.social{display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center;margin-bottom:14px}.site-footer a:hover{color:#fff;text-decoration:underline}
 @media(max-width:900px){.site-header nav{display:none}.hero,.coach,.results{grid-template-columns:1fr}.cards,.step-grid,.options{grid-template-columns:1fr}.trustbar{grid-template-columns:repeat(2,1fr)}.step{border-right:0;border-bottom:1px solid var(--line)}.slide{padding:28px 24px}.prev{left:-6px}.next{right:-6px}section{padding:60px 6vw}}
+.page-hero{padding:90px 6vw 60px;text-align:center;background:radial-gradient(circle at 50% 0,#2a1215 0,transparent 60%)}.page-hero .lead{margin:16px auto 0}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.services.alt{background:var(--panel)}
+.ticks{list-style:none;margin:16px 0 22px}.ticks li{padding-left:26px;position:relative;margin-bottom:8px;color:#c9c9cc}.ticks li:before{content:"✓";position:absolute;left:0;color:var(--red2)}
+.faq{max-width:760px;margin:30px auto}details{border:1px solid var(--line);border-radius:var(--r);padding:16px 20px;margin-bottom:12px;background:var(--bg)}summary{cursor:pointer;font-weight:600}details p{margin:10px 0 0}
+.price .card{position:relative;padding:34px 24px}.price-tag{font:500 44px Oswald;color:#fff;margin:6px 0 14px}.price-tag small{font:14px Inter;color:var(--muted);margin-left:6px}.price .ticks{text-align:left;display:inline-block}
+.pop{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--red);font-size:12px;padding:3px 14px;border-radius:20px;text-transform:uppercase}
+.form{display:grid;gap:16px}.form label{display:grid;gap:6px;font-size:14px;color:var(--muted)}.form input,.form select,.form textarea{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;color:var(--text);font:inherit}.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid var(--red)}.form button{cursor:pointer}
+@media(max-width:900px){.split{grid-template-columns:1fr}}
