@@ -67,7 +67,7 @@ figcaption{font-weight:600;font-size:14px}figcaption span{display:block;color:va
 .site-footer{padding:40px 6vw;text-align:center;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
 .foot-brand{display:flex;gap:12px;align-items:center;justify-content:center;font:500 18px Oswald;color:var(--text);margin-bottom:16px}
 .site-footer nav,.social{display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center;margin-bottom:14px}.site-footer a:hover{color:var(--red);text-decoration:underline}
-@media(max-width:900px){.site-header nav{display:none}.hero,.coach,.results{grid-template-columns:1fr}.cards,.step-grid,.options{grid-template-columns:1fr}.trustbar{grid-template-columns:repeat(2,1fr)}.step{border-right:0;border-bottom:1px solid var(--line)}.slide{padding:28px 24px}.prev{left:-6px}.next{right:-6px}section{padding:60px 6vw}}
+@media(max-width:760px){.site-header nav{display:none}.hero,.coach,.results{grid-template-columns:1fr}.cards,.step-grid,.options{grid-template-columns:1fr}.trustbar{grid-template-columns:repeat(2,1fr)}.step{border-right:0;border-bottom:1px solid var(--line)}.slide{padding:28px 24px}.prev{left:-6px}.next{right:-6px}section{padding:60px 6vw}}
 .page-hero{padding:90px 6vw 60px;text-align:center;background:#eee}.page-hero .lead{margin:16px auto 0}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
 .services.alt{background:var(--panel)}
@@ -76,7 +76,17 @@ figcaption{font-weight:600;font-size:14px}figcaption span{display:block;color:va
 .price .card{position:relative;padding:34px 24px}.price-tag{font:500 44px Oswald;color:#111;margin:6px 0 14px}.price-tag small{font:14px Inter;color:var(--muted);margin-left:6px}.price .ticks{text-align:left;display:inline-block}
 .pop{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--red);font-size:12px;padding:3px 14px;border-radius:20px;text-transform:uppercase}
 .form{display:grid;gap:16px}.form label{display:grid;gap:6px;font-size:14px;color:var(--muted)}.form input,.form select,.form textarea{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;color:var(--text);font:inherit}.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid var(--red)}.form button{cursor:pointer}
-@media(max-width:900px){.split{grid-template-columns:1fr}}
+@media(max-width:760px){.split{grid-template-columns:1fr}}
 
 .pop,.btn{color:#fff}.eyebrow{color:var(--red)}.card.feature{border-color:var(--red)}.badge{background:#fff}.slide{background:#fff}.details{background:#fff}details{background:#fff}.opt{background:#fff}.card{background:#fff;border:1px solid var(--line)}.services.alt .card{background:#fff}.foot-brand{color:var(--text)}.logo-ph{border-color:#999}.step{background:#fff}.step-grid{background:#fff}
 .opt.opt-cta{background:var(--red);color:#fff}
+/* size tuning for image placeholders */
+.hero{min-height:0;padding-top:60px;padding-bottom:60px}
+.ph-hero{aspect-ratio:4/3;max-height:380px}
+.coach{grid-template-columns:.7fr 1.3fr}
+.ph-portrait{aspect-ratio:1/1;max-height:340px;width:100%}
+.grid-ph .ph{aspect-ratio:1/1}
+.ph-card{aspect-ratio:16/9;max-height:170px}
+section{padding-top:70px;padding-bottom:70px}
+.trustbar{padding-top:34px;padding-bottom:34px}
+@media(max-width:760px){.ph-hero{max-height:260px}.ph-portrait{max-height:240px}.grid-ph .ph{aspect-ratio:4/3}}
