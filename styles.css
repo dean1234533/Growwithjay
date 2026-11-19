@@ -1836,7 +1836,7 @@ html {
     font-size: clamp(48px, 7.2vw, 86px);
   }
   .hero h1 em {
-    color: #f2a4ab;
+    color: #fff;
   }
   .hero .eyebrow {
     color: #f1f1ec;
