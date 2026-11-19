@@ -1484,8 +1484,8 @@ details p {
   letter-spacing: 0;
 }
 .foot-brand .business-logo {
-  width: 80px;
-  height: 80px;
+  width: 52px;
+  height: 52px;
 }
 .foot-brand .brand-name {
   text-align: left;
@@ -1895,7 +1895,7 @@ html {
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 .site-header .brand { gap: 16px; }
-.foot-brand { gap: 22px; }
+.foot-brand { gap: 16px; }
 .foot-brand .business-logo { box-shadow: 1px 1px 0 #e1e1dc, 3px 3px 0 #bfbfb7, 5px 5px 0 #85857d, 8px 12px 22px #0008; }
 @media (hover:hover) and (pointer:fine) {
   .brand:hover .business-logo { transform: perspective(350px) rotateY(-5deg) rotateX(3deg) translateY(-2px); }
