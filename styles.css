@@ -2122,3 +2122,131 @@ html {
     font-size: 13px;
   }
 }
+
+/* Only distinct destinations remain: coaching home and treatment information. */
+.contact-section {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 8vw;
+  background: var(--dark);
+  color: #fff;
+  align-items: center;
+}
+.contact-section .eyebrow {
+  color: #b9b9b0;
+}
+.contact-section p {
+  color: #b9b9b0;
+  font-size: 15px;
+}
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.contact-actions > a:not(.btn) {
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.contact-actions p {
+  margin: 8px 0 10px;
+  max-width: 400px;
+}
+.massage-intro {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 7vw;
+  align-items: center;
+  padding-block: 60px;
+}
+.massage-intro h1 {
+  font-size: clamp(56px, 6.5vw, 98px);
+}
+.massage-intro .lead {
+  margin: 26px 0;
+  max-width: 480px;
+}
+.massage-intro > img {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  object-position: center;
+}
+.massage-question {
+  display: block;
+  width: fit-content;
+  font-size: 13px;
+  border-bottom: 1px solid var(--line);
+  margin-top: 22px;
+}
+.massage-details,
+.massage-faq {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 8vw;
+}
+.massage-details {
+  background: var(--panel);
+}
+.massage-details p,
+.massage-faq p {
+  font-size: 15px;
+}
+.treatment-list article {
+  border-top: 1px solid #c8c8bf;
+  padding: 24px 0 8px;
+}
+.treatment-list h3 {
+  font-size: 29px;
+}
+.massage-faq .faq {
+  margin: 0;
+  width: 100%;
+}
+.massage-faq a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.treatment-booking {
+  background: var(--panel);
+  padding: 36px 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.treatment-booking p {
+  color: var(--text);
+  margin: 0;
+  font: 600 32px var(--heading);
+}
+@media (max-width: 760px) {
+  .contact-section,
+  .massage-intro,
+  .massage-details,
+  .massage-faq {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .contact-section h2 {
+    font-size: 46px;
+  }
+  .contact-actions > a:not(.btn) {
+    font-size: clamp(15px, 4.5vw, 19px);
+  }
+  .massage-intro {
+    padding-top: 45px;
+  }
+  .massage-intro h1 {
+    font-size: clamp(54px, 12vw, 82px);
+  }
+  .massage-intro > img {
+    height: 360px;
+  }
+  .treatment-booking {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-block: 32px;
+  }
+}
