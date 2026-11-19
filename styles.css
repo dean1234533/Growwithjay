@@ -2289,3 +2289,11 @@ html {
 .footer-contact .whatsapp-link {
   margin-top: 8px;
 }
+
+/* Footer social icons: evenly sized circular buttons */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.site-footer .social{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:12px;margin:0}
+.site-footer .social a{display:inline-grid;place-items:center;width:44px;height:44px;min-height:0;padding:0;border-radius:50%;background:#fff;border:1px solid rgba(255,255,255,.25);transition:transform .2s,box-shadow .2s}
+.site-footer .social a:hover{transform:translateY(-2px);box-shadow:0 6px 14px rgba(0,0,0,.35)}
+.site-footer .social img{width:22px;height:22px;object-fit:contain;display:block}
+@media(max-width:680px){.site-footer .social{justify-content:flex-start}}
