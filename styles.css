@@ -2300,3 +2300,39 @@ html {
 
 /* Footer social icons: stacked vertically */
 .site-footer .social{flex-direction:column;align-items:flex-start;gap:10px}
+
+/* ===== Premium footer ===== */
+.site-footer{background:#0d0d0e;color:#b9b9bd;padding:0;border-top:0;position:relative}
+.site-footer:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,transparent,#a8323b 20%,#d1525c 50%,#a8323b 80%,transparent)}
+.footer-cta{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;max-width:1180px;margin:0 auto;padding:56px 6vw 48px;border-bottom:1px solid rgba(255,255,255,.1)}
+.footer-cta-eyebrow{font:700 12px Manrope,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:#d1525c;margin:0 0 10px}
+.footer-cta-title{font:700 clamp(28px,4vw,44px)/1.05 "Barlow Condensed",sans-serif;text-transform:uppercase;color:#fff;margin:0;letter-spacing:.01em}
+.site-footer .footer-cta-btn{padding:16px 34px;font-size:15px;white-space:nowrap}
+.site-footer .footer-main{display:grid;grid-template-columns:1.5fr 1fr 1.2fr;gap:56px;max-width:1180px;margin:0 auto;padding:56px 6vw 48px}
+.site-footer .footer-identity{display:flex;flex-direction:column;align-items:flex-start}
+.site-footer .footer-intro{color:#9a9aa0;font-size:15px;line-height:1.7;margin:18px 0 26px;max-width:300px}
+.site-footer .footer-follow{font:700 11px Manrope,sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#fff;margin:0 0 14px}
+.site-footer .social{display:flex;flex-direction:row;flex-wrap:wrap;gap:12px;margin:0;align-items:center}
+.site-footer .social a{width:42px;height:42px;border-radius:50%;background:transparent;border:1px solid rgba(255,255,255,.28);display:inline-grid;place-items:center;padding:0;min-height:0;transition:background .25s,border-color .25s,transform .25s}
+.site-footer .social a:hover{background:#a8323b;border-color:#a8323b;transform:translateY(-3px);box-shadow:none;text-decoration:none}
+.site-footer .social img{width:18px;height:18px;filter:brightness(0) invert(1);opacity:.9}
+.site-footer h2{font:700 11px Manrope,sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#fff;margin:0 0 20px}
+.site-footer .footer-explore a,.site-footer .footer-contact>a:not(.btn){display:block;color:#b9b9bd;font-size:15px;padding:6px 0;margin:0;transition:color .2s,padding-left .2s}
+.site-footer .footer-explore a:hover,.site-footer .footer-contact>a:not(.btn):hover{color:#fff;padding-left:6px;text-decoration:none}
+.site-footer .footer-contact p{color:#8d8d93;font-size:14px;line-height:1.7;margin:14px 0 20px}
+.site-footer .footer-contact .whatsapp-link{display:inline-flex;align-items:center;gap:10px;background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35);box-shadow:none;padding:12px 22px;font-size:14px;transform:none}
+.site-footer .footer-contact .whatsapp-link:hover{background:#25d366;border-color:#25d366;color:#0d0d0e}
+.site-footer .footer-contact .whatsapp-link svg{width:18px;height:18px}
+.site-footer .footer-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px 28px;max-width:1180px;margin:0 auto;padding:22px 6vw 30px;border-top:1px solid rgba(255,255,255,.1)}
+.site-footer .footer-bottom p{margin:0;color:#77777d;font-size:13px}
+.site-footer .footer-legal{display:flex;gap:22px;flex-wrap:wrap}
+.site-footer .footer-legal a{color:#8d8d93;font-size:13px}
+.site-footer .footer-legal a:hover,.site-footer .back-top:hover{color:#fff;text-decoration:none}
+.site-footer .back-top{color:#b9b9bd;font:600 12px Manrope,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+@media(max-width:900px){.site-footer .footer-main{grid-template-columns:1fr 1fr;gap:40px}.site-footer .footer-identity{grid-column:1/-1}}
+@media(max-width:600px){.footer-cta{padding:44px 6vw 36px}.site-footer .footer-main{grid-template-columns:1fr;gap:34px;padding-top:40px}.site-footer .footer-cta-btn{width:100%;text-align:center}.site-footer .footer-bottom{flex-direction:column;align-items:flex-start}}
+.site-footer .social svg{width:18px;height:18px;display:block;color:#fff}
+.site-footer .social a:hover svg{color:#fff}
+.site-footer .footer-cta .footer-cta-eyebrow{color:#d1525c;font:700 12px Manrope,sans-serif;letter-spacing:.28em;margin:0 0 10px}
+.site-footer .footer-cta .footer-cta-title{color:#fff;font:700 clamp(30px,4.2vw,46px)/1.05 "Barlow Condensed",sans-serif;letter-spacing:.01em;margin:0;text-transform:uppercase}
+.site-footer .foot-brand,.site-footer .foot-brand .brand-name{color:#fff;opacity:1}
