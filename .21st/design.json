@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "project": {
+    "name": "Growwithjay",
+    "productType": null,
+    "stack": []
+  },
+  "sources": {
+    "tokens": [],
+    "components": [],
+    "assets": ["assets"],
+    "instructions": []
+  },
+  "design": {
+    "colorMode": "black and white with original burgundy brand accent",
+    "colors": {
+      "background": "#fafaf8",
+      "text": "#181818",
+      "dark": "#141414",
+      "accent": "#a8323b"
+    },
+    "typography": {},
+    "spacing": {},
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "unknown"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [],
+    "avoid": []
+  },
+  "decisions": [
+    "Preserve homepage section order and five-page structure.",
+    "User rejected forest, gold, serif and empty illustrated placeholders. Replace with black/white performance direction, condensed bold headlines and orange accents.",
+    "Buttons use stronger solid fills, raised edges, hover lift and a single light sweep. Keep clear press/focus states and respect reduced motion.",
+    "Use original Jay Marson logo, Courage To Grow identity, burgundy #a8323b and media downloaded from growwithjay.co.uk. Preserve enhanced button effects and omit DBS and client count claims.",
+    "Use a single-row mobile/tablet header with a vertical, scrollable navigation panel, large tap targets, outside/Escape closing and breakpoint reset. Verify all five pages at phone, tablet, landscape and desktop widths."
+  ],
+  "evidence": [],
+  "generatedAt": "2026-11-19T11:31:30.067Z"
+}

@@ -1,44 +1,186 @@
 <!doctype html>
-<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact | Your Brand Name</title><meta name="description" content="Get in touch to book your free consultation.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css"></head><body>
-<a class="skip" href="#main">Skip to main content</a>
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="Your Brand Name home">
-    <span class="logo-ph" aria-hidden="true">LOGO</span>
-    <span class="brand-name">YOUR BRAND NAME</span>
-  </a>
-  <nav aria-label="Main">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="index.html#services">Personal Training</a>
-    <a href="sports-massage.html">Sports Massage</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="index.html#reviews">Reviews</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="header-actions">
-    <a class="btn btn-sm" href="contact.html">Start your journey</a>
-    <a class="login" href="#" aria-label="Client log in">Log in</a>
-  </div>
-</header>
-<main id="main">
-<section class="page-hero"><p class="eyebrow">Contact</p><h1>Let's Talk About Your Goals</h1><p class="lead">Send a message and we will reply within one working day.</p></section>
-<section class="split contact"><form class="form" onsubmit="event.preventDefault();this.querySelector('button').textContent='Thank you, we will be in touch';">
-<label>Full name<input required name="name"></label><label>Email<input required type="email" name="email"></label>
-<label>Phone<input type="tel" name="phone"></label>
-<label>I am interested in<select><option>Personal training</option><option>Online coaching</option><option>Sports massage</option><option>Not sure yet</option></select></label>
-<label>Message<textarea rows="5" name="msg"></textarea></label><button class="btn" type="submit">Send message</button></form>
-<div><h2>Get in Touch</h2><ul class="ticks"><li>Email: hello@example.com</li><li>Phone: 00000 000000</li><li>Location: Your City, UK</li><li>Hours: Mon-Sat, 7am-8pm</li></ul>
-<div class="ph" style="aspect-ratio:16/10"><span>Map placeholder</span></div>
-<p style="margin-top:16px"><a class="btn btn-sm btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Your+Brand+Name+Personal+Training" target="_blank" rel="noopener">★ Find us on Google</a></p></div></section>
-</main>
-<footer class="site-footer">
-  <div class="foot-brand"><span class="logo-ph" aria-hidden="true">LOGO</span> YOUR BRAND NAME</div>
-  <nav aria-label="Footer"><a href="about.html">About</a><a href="sports-massage.html">Sports Massage</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a><a href="#">Refund Policy</a><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Accessibility Statement</a></nav>
-  <div class="social"><a href="#">YouTube</a><a href="#">TikTok</a><a href="#">Instagram</a></div>
-  <p>&copy; <span id="yr">2026</span> Your Brand Name. All rights reserved.</p>
-</footer>
-<script src="script.js"></script></body></html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact | Courage To Grow™</title>
+    <meta
+      name="description"
+      content="Get in touch to book your free consultation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/growwithjay/logo.png" />
+    <link rel="stylesheet" href="styles.css?v=20261119-nav-close" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Courage To Grow™ home">
+        <img
+          class="business-logo"
+          src="assets/growwithjay/logo.png"
+          alt="Jay Marson — Courage To Grow"
+          width="64"
+          height="64"
+        />
+        <span class="brand-name"
+          >COURAGE TO GROW<sup>™</sup
+          ><small>PERSONAL TRAINING WITH JAY MARSON</small></span
+        >
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Open navigation"
+      >
+        <span class="menu-label">Menu</span
+        ><span class="menu-icon" aria-hidden="true"
+          ><span></span><span></span
+        ></span>
+      </button>
+      <nav id="main-nav" aria-label="Main navigation">
+        <button
+          class="nav-close"
+          type="button"
+          aria-label="Close navigation menu"
+        >
+          Close menu <span aria-hidden="true">×</span>
+        </button>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="index.html#services">Personal Training</a>
+        <a href="sports-massage.html">Sports Massage</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="contact.html">Contact</a>
+        <a class="nav-booking btn" href="https://www.growwithjay.co.uk/coaching"
+          >Start your journey</a
+        >
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-sm" href="https://www.growwithjay.co.uk/coaching"
+          >Start your journey</a
+        >
+        <span class="login">Personal coaching</span>
+      </div>
+    </header>
+    <div class="nav-backdrop" aria-hidden="true" hidden></div>
+    <main id="main">
+      <section class="page-hero">
+        <p class="eyebrow">Contact</p>
+        <h1>Let's Talk About Your Goals</h1>
+        <p class="lead">
+          Start with a conversation. Tell us where you are and where you want to
+          be.
+        </p>
+      </section>
+      <section class="split contact">
+        <form class="form">
+          <label>Full name<input required name="name" /></label
+          ><label>Email<input required type="email" name="email" /></label>
+          <label>Phone<input type="tel" name="phone" /></label>
+          <label
+            >I am interested in<select>
+              <option>Personal training</option>
+              <option>Online coaching</option>
+              <option>Sports massage</option>
+              <option>Not sure yet</option>
+            </select></label
+          >
+          <label>Message<textarea rows="5" name="msg"></textarea></label>
+          <p class="demo-note">
+            Demo form — messages are not sent. Connect your enquiry service
+            before launch.
+          </p>
+          <button class="btn" type="submit">Preview enquiry</button>
+          <p class="form-status" role="status"></p>
+        </form>
+        <div>
+          <h2>Get in Touch</h2>
+          <ul class="ticks">
+            <li>Email: hello@growwithjay.co.uk</li>
+            <li>Phone: 07304 481269</li>
+            <li>Location: Hackney, East London</li>
+            <li>In-person and online appointments available</li>
+          </ul>
+          <div class="location-photo">
+            <img
+              src="assets/growwithjay/personal-training.webp"
+              alt="Personal training with Jay Marson"
+            /><span>HACKNEY / EAST LONDON / ONLINE</span>
+          </div>
+          <p style="margin-top: 16px">
+            <a
+              class="btn btn-sm btn-ghost"
+              href="https://www.google.com/maps/search/?api=1&amp;query=Jay+Marson+Personal+Training+Hackney"
+              target="_blank"
+              rel="noopener"
+              >★ Find us on Google</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="foot-brand">
+        <img
+          class="business-logo"
+          src="assets/growwithjay/logo.png"
+          alt="Jay Marson — Courage To Grow"
+          width="64"
+          height="64"
+        />
+        <span class="brand-name"
+          >COURAGE TO GROW<sup>™</sup
+          ><small>PERSONAL TRAINING WITH JAY MARSON</small></span
+        >
+      </div>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a
+        ><a href="sports-massage.html">Sports Massage</a
+        ><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a
+        ><a href="https://www.growwithjay.co.uk/blank-3">Refund Policy</a
+        ><a href="https://www.growwithjay.co.uk/blank">Privacy Policy</a
+        ><a href="https://www.growwithjay.co.uk/blank-2"
+          >Terms &amp; Conditions</a
+        ><a href="https://www.growwithjay.co.uk/blank-1"
+          >Accessibility Statement</a
+        >
+      </nav>
+      <div class="social">
+        <a href="https://www.youtube.com/@JayMarson-CTG/shorts"
+          ><img
+            src="assets/growwithjay/youtube.png"
+            alt=""
+            width="20"
+            height="20"
+          />YouTube</a
+        ><a href="https://www.tiktok.com/@fitby_jay"
+          ><img
+            src="assets/growwithjay/tiktok.png"
+            alt=""
+            width="20"
+            height="20"
+          />TikTok</a
+        ><a href="https://www.instagram.com/pt_mrj"
+          ><img
+            src="assets/growwithjay/instagram.png"
+            alt=""
+            width="20"
+            height="20"
+          />Instagram</a
+        >
+      </div>
+      <p>
+        &copy; <span id="yr">2026</span> Courage To Grow™. All rights reserved.
+      </p>
+    </footer>
+    <script src="script.js?v=20261119-nav-close"></script>
+  </body>
+</html>

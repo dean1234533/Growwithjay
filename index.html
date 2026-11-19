@@ -1,186 +1,489 @@
 <!doctype html>
 <html lang="en-GB">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Your Brand Name | Personal Training &amp; Sports Massage in Your City</title>
-<meta name="description" content="Qualified personal trainer and sports massage therapist offering in-person, outdoor and live online coaching. Book a free consultation.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<a class="skip" href="#main">Skip to main content</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>
+      Courage To Grow™ | Personal Training &amp; Sports Massage in Hackney
+    </title>
+    <meta
+      name="description"
+      content="Qualified personal trainer and sports massage therapist offering in-person, outdoor and live online coaching. Book a free consultation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/growwithjay/logo.png" />
+    <link rel="stylesheet" href="styles.css?v=20261119-nav-close" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to main content</a>
 
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="Your Brand Name home">
-    <span class="logo-ph" aria-hidden="true">LOGO</span>
-    <span class="brand-name">YOUR BRAND NAME</span>
-  </a>
-  <nav aria-label="Main">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="index.html#services">Personal Training</a>
-    <a href="sports-massage.html">Sports Massage</a>
-    <a href="pricing.html">Pricing</a>
-    <a href="index.html#reviews">Reviews</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="header-actions">
-    <a class="btn btn-sm" href="contact.html">Start your journey</a>
-    <a class="login" href="#" aria-label="Client log in">Log in</a>
-  </div>
-</header>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Courage To Grow™ home">
+        <img
+          class="business-logo"
+          src="assets/growwithjay/logo.png"
+          alt="Jay Marson — Courage To Grow"
+          width="64"
+          height="64"
+        />
+        <span class="brand-name"
+          >COURAGE TO GROW<sup>™</sup
+          ><small>PERSONAL TRAINING WITH JAY MARSON</small></span
+        >
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Open navigation"
+      >
+        <span class="menu-label">Menu</span
+        ><span class="menu-icon" aria-hidden="true"
+          ><span></span><span></span
+        ></span>
+      </button>
+      <nav id="main-nav" aria-label="Main navigation">
+        <button
+          class="nav-close"
+          type="button"
+          aria-label="Close navigation menu"
+        >
+          Close menu <span aria-hidden="true">×</span>
+        </button>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="index.html#services">Personal Training</a>
+        <a href="sports-massage.html">Sports Massage</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="contact.html">Contact</a>
+        <a class="nav-booking btn" href="https://www.growwithjay.co.uk/coaching"
+          >Start your journey</a
+        >
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-sm" href="https://www.growwithjay.co.uk/coaching"
+          >Start your journey</a
+        >
+        <span class="login">Personal coaching</span>
+      </div>
+    </header>
+    <div class="nav-backdrop" aria-hidden="true" hidden></div>
 
-<main id="main">
-<section class="hero" id="top">
-  <div class="hero-text">
-    <p class="eyebrow">Personal Training &nbsp;|&nbsp; Your City &amp; Online</p>
-    <h1>Build strength.<br><em>Stay consistent.</em><br>Transform your life.</h1>
-    <p class="lead">Expert one-to-one coaching built around your goals, your schedule and your lifestyle, with the structure and accountability to make results last.</p>
-    <a class="btn" href="#book">Start your journey</a>
-    <ul class="hero-proof">
-      <li><span class="stars">★★★★★</span> 5.0 on Google</li>
-      <li>Fully qualified &amp; insured</li>
-      <li>Free, no-obligation consultation</li>
-    </ul>
-  </div>
-  <div class="ph ph-hero" role="img" aria-label="Hero image placeholder"><span>Hero image / video placeholder</span></div>
-</section>
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-text">
+          <p class="eyebrow">PERSONAL COACHING / HACKNEY &amp; ONLINE</p>
+          <h1>
+            BUILD STRENGTH.<br /><em>STAY CONSISTENT.</em><br />TRANSFORM YOUR
+            LIFE.
+          </h1>
+          <p class="lead">
+            Expert one-to-one coaching built around your goals, your schedule
+            and your lifestyle, with the structure and accountability to make
+            results last.
+          </p>
+          <div class="hero-links">
+            <a class="btn" href="contact.html">Find your coaching</a
+            ><a class="text-link" href="#services">Explore the approach</a>
+          </div>
+          <ul class="hero-proof">
+            <li>Personal training · Sports massage · Online coaching</li>
+            <li>YMCA Level 3 qualified</li>
+            <li>Free, no-obligation consultation</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <video
+            id="hero-film"
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="assets/growwithjay/hero-poster.jpg"
+            aria-label="Jay Marson training — Courage To Grow"
+          >
+            <source
+              src="assets/growwithjay/hero-training-hd.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="film-caption">
+            <span>THE WORK. THE PROGRESS. THE CHANGE.</span>
+          </div>
+        </div>
+      </section>
 
-<section class="trustbar" aria-label="Credentials and trust">
-  <div><strong>Level 3</strong><span>Qualified Personal Trainer</span></div>
-  <div><strong>Fully</strong><span>Insured Professional</span></div>
-  <div><strong>DBS</strong><span>Checked</span></div>
-  <div><strong>5.0 ★</strong><span>Google Rating</span></div>
-  <div><strong>100+</strong><span>Clients Coached</span></div>
-</section>
+      <section
+        class="trustbar trustbar-three"
+        aria-label="Credentials and trust"
+      >
+        <div>
+          <strong>Level 3</strong><span>Qualified Personal Trainer</span>
+        </div>
+        <div><strong>1-to-1</strong><span>Personalised Coaching</span></div>
+        <div><strong>Hackney</strong><span>East London &amp; Online</span></div>
+      </section>
 
-<section class="coach" id="coach">
-  <div class="ph ph-portrait" role="img" aria-label="Coach portrait placeholder"><span>Coach portrait placeholder</span></div>
-  <div class="coach-text">
-    <p class="eyebrow">Meet your coach</p>
-    <h2>A Life Built on Discipline, Not Motivation</h2>
-    <p>Motivation fades; systems endure. Through structured habits, faith and consistent training, I rebuilt my own health and confidence from the ground up. That experience shaped a coaching philosophy grounded in patience, accountability and long-term progress.</p>
-    <p>Today, I help clients build strength, develop lasting confidence and create habits that carry well beyond the gym.</p>
-    <ul class="creds">
-      <li>Qualified Personal Trainer &amp; Sports Massage Therapist</li>
-      <li>Founder of Your Brand Name &nbsp;|&nbsp; Author</li>
-    </ul>
-    <a class="btn btn-sm" href="about.html">Learn more</a>
-  </div>
-</section>
+      <section class="coach" id="coach">
+        <figure class="coach-photo">
+          <img
+            src="assets/growwithjay/jay-portrait.png"
+            alt="Jay Marson, personal trainer and founder of Courage To Grow"
+            width="1000"
+            height="1250"
+          />
+          <figcaption>BUILT ON DISCIPLINE. DRIVEN BY YOU.</figcaption>
+        </figure>
+        <div class="coach-text">
+          <p class="eyebrow">Meet your coach</p>
+          <h2>MORE THAN A WORKOUT.<br />A WAY FORWARD.</h2>
+          <p>
+            Motivation fades; systems endure. Through structured habits, faith
+            and consistent training, I rebuilt my own health and confidence from
+            the ground up. That experience shaped a coaching philosophy grounded
+            in patience, accountability and long-term progress.
+          </p>
+          <p>
+            Today, I help clients build strength, develop lasting confidence and
+            create habits that carry well beyond the gym.
+          </p>
+          <ul class="creds">
+            <li>Qualified Personal Trainer &amp; Sports Massage Therapist</li>
+            <li>
+              Founder of Courage To Grow™ | Author of The Courage to Grow Series
+            </li>
+          </ul>
+          <a class="btn btn-sm" href="about.html">Learn more</a>
+        </div>
+      </section>
 
-<section class="results" id="results">
-  <div class="results-text">
-    <p class="eyebrow">Client success stories</p>
-    <h2>Real People. Real Results.</h2>
-    <p>Every programme is individual, and so is every result. Explore the transformations our clients have achieved through consistent, expert-led coaching.</p>
-    <p class="stars big">★★★★★</p>
-    <a class="btn" href="#reviews">Read client stories</a>
-  </div>
-  <div class="grid-ph" aria-label="Client transformation photos placeholders">
-    <div class="ph"><span>Before / after</span></div><div class="ph"><span>Before / after</span></div>
-    <div class="ph"><span>Before / after</span></div><div class="ph"><span>Before / after</span></div>
-    <div class="ph"><span>Before / after</span></div><div class="ph"><span>Before / after</span></div>
-  </div>
-</section>
+      <section class="results" id="results">
+        <div class="results-text">
+          <p class="eyebrow">Client success stories</p>
+          <h2>YOUR PROGRESS.<br />OUR PURPOSE.</h2>
+          <p>
+            A stronger body. A clearer mindset. The confidence to keep going.
+            Individual coaching that meets you where you are — and helps you go
+            further.
+          </p>
+          <p class="stars big">★★★★★</p>
+          <a class="btn" href="#reviews">Read client stories</a>
+        </div>
+        <div class="grid-ph" aria-label="Progress photos from Courage To Grow">
+          <figure class="result-photo">
+            <img
+              src="assets/growwithjay/client-01.webp"
+              alt="Progress photographs featured on Courage To Grow"
+              width="650"
+              height="650"
+            />
+          </figure>
+          <figure class="result-photo">
+            <img
+              src="assets/growwithjay/client-02.webp"
+              alt="Progress photographs featured on Courage To Grow"
+              width="650"
+              height="650"
+            />
+          </figure>
+          <figure class="result-photo">
+            <img
+              src="assets/growwithjay/client-03.webp"
+              alt="Progress photographs featured on Courage To Grow"
+              width="650"
+              height="650"
+            />
+          </figure>
+          <figure class="result-photo">
+            <img
+              src="assets/growwithjay/client-04.jpg"
+              alt="Progress photographs featured on Courage To Grow"
+              width="650"
+              height="650"
+            />
+          </figure>
+        </div>
+      </section>
 
-<section class="services" id="services">
-  <p class="eyebrow center">What we offer</p>
-  <h2 class="center">Coaching Designed Around You</h2>
-  <div class="cards">
-    <article class="card feature">
-      <div class="ph ph-card"><span>Service image</span></div>
-      <h3>Personal Training</h3>
-      <p>Structured, one-to-one sessions that build strength, fitness and confidence, with a programme tailored to your ability and goals.</p>
-      <a class="btn btn-sm" href="pricing.html">Learn more</a>
-    </article>
-    <article class="card">
-      <div class="ph ph-card"><span>Service image</span></div>
-      <h3>Sports Massage</h3>
-      <p>Clinical-grade treatment to aid recovery, relieve tension and support peak performance.</p>
-      <a class="btn btn-sm" href="sports-massage.html">Learn more</a>
-    </article>
-    <article class="card">
-      <div class="ph ph-card"><span>Service image</span></div>
-      <h3>Online Coaching</h3>
-      <p>Programming, check-ins and ongoing support that fit around your schedule, wherever you are.</p>
-      <a class="btn btn-sm" href="pricing.html#online">Learn more</a>
-    </article>
-  </div>
+      <section class="services" id="services">
+        <p class="eyebrow center">What we offer</p>
+        <h2 class="center">YOUR GOALS. YOUR WAY.</h2>
+        <div class="cards">
+          <article class="card feature">
+            <div class="service-photo">
+              <img
+                src="assets/growwithjay/personal-training.webp"
+                alt="One-to-one strength training"
+                width="900"
+                height="650"
+              />
+            </div>
+            <h3>Personal Training</h3>
+            <p>
+              Structured, one-to-one sessions that build strength, fitness and
+              confidence, with a programme tailored to your ability and goals.
+            </p>
+            <a class="btn btn-sm" href="pricing.html">Learn more</a>
+          </article>
+          <article class="card">
+            <div class="service-photo">
+              <img
+                src="assets/growwithjay/sports-massage.webp"
+                alt="Sports massage and recovery treatment"
+                width="900"
+                height="650"
+              />
+            </div>
+            <h3>Sports Massage</h3>
+            <p>
+              Targeted treatment to aid recovery, relieve tension and support
+              peak performance.
+            </p>
+            <a class="btn btn-sm" href="sports-massage.html">Learn more</a>
+          </article>
+          <article class="card">
+            <div class="service-photo">
+              <img
+                src="assets/growwithjay/online-coaching.jpg"
+                alt="Jay Marson coaching a client online"
+                width="900"
+                height="650"
+              />
+            </div>
+            <h3>Online Coaching</h3>
+            <p>
+              Programming, check-ins and ongoing support that fit around your
+              schedule, wherever you are.
+            </p>
+            <a class="btn btn-sm" href="pricing.html#online">Learn more</a>
+          </article>
+        </div>
 
-  <h3 class="center choose">Choose how you train</h3>
-  <div class="options">
-    <div class="opt"><h4>In-person PT</h4><p>One-to-one coaching in a private, professional setting, tailored to your goals.</p></div>
-    <div class="opt"><h4>Live online PT</h4><p>Real-time coaching, guidance and feedback from anywhere in the UK.</p></div>
-    <div class="opt"><h4>Outdoor PT</h4><p>Personalised outdoor training to build strength and improve fitness.</p></div>
-    <a class="opt opt-cta" href="contact.html">Book your free consultation<small>Let's discuss your goals and find the right approach.</small></a>
-  </div>
-  <p class="center"><a class="btn btn-dark" href="pricing.html">View personal training prices &rsaquo;</a></p>
-  <p class="center muted">Based in Your City &nbsp;|&nbsp; Online coaching available nationwide</p>
-</section>
+        <h3 class="center choose">Choose how you train</h3>
+        <div class="options">
+          <div class="opt">
+            <h4>In-person PT</h4>
+            <p>
+              One-to-one coaching in a private, professional setting, tailored
+              to your goals.
+            </p>
+          </div>
+          <div class="opt">
+            <h4>Live online PT</h4>
+            <p>
+              Real-time coaching, guidance and feedback from anywhere in the UK.
+            </p>
+          </div>
+          <div class="opt">
+            <h4>Outdoor PT</h4>
+            <p>
+              Personalised outdoor training to build strength and improve
+              fitness.
+            </p>
+          </div>
+          <a
+            class="opt opt-cta"
+            href="https://www.growwithjay.co.uk/service-page/book-your-free-consultation"
+            >Book your free consultation<small
+              >Let's discuss your goals and find the right approach.</small
+            ></a
+          >
+        </div>
+        <p class="center">
+          <a class="btn btn-dark" href="pricing.html"
+            >View personal training prices</a
+          >
+        </p>
+        <p class="center muted">
+          Based in Hackney &nbsp;|&nbsp; Online coaching available nationwide
+        </p>
+      </section>
 
-<section class="reviews" id="reviews">
-  <p class="eyebrow center">Trusted by clients</p>
-  <h2 class="center">Rated 5 Stars on Google</h2>
+      <section class="reviews" id="reviews">
+        <p class="eyebrow center">Client experiences</p>
+        <h2 class="center">GOOD WORDS.<br />STRONGER CONNECTIONS.</h2>
 
-  <div class="gbadge">
-    <div class="g-logo" aria-hidden="true">G</div>
-    <div>
-      <div class="stars big">★★★★★</div>
-      <strong>5.0</strong> average &middot; <span>Based on 50+ Google reviews</span>
-    </div>
-    <!-- PLACEHOLDER: replace with your real Google Business Profile review link, e.g. https://g.page/r/XXXXXXXX/review -->
-    <a class="btn btn-sm" href="https://www.google.com/maps/search/?api=1&amp;query=Your+Brand+Name+Personal+Training" target="_blank" rel="noopener">View us on Google</a>
-    <a class="btn btn-sm btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Your+Brand+Name+Personal+Training" target="_blank" rel="noopener">Leave a review</a>
-  </div>
+        <div class="gbadge">
+          <strong>STRENGTH. CONFIDENCE. CONSISTENCY.</strong
+          ><a
+            class="btn btn-sm"
+            href="https://www.growwithjay.co.uk/client-success-stories"
+            >See client success stories</a
+          >
+        </div>
 
-  <!-- SAMPLE TESTIMONIALS: replace with genuine client reviews before going live -->
-  <div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Client reviews">
-    <button class="car-btn prev" aria-label="Previous review">&lsaquo;</button>
-    <div class="track">
-      <figure class="slide active"><div class="stars">★★★★★</div><blockquote>“Professional, knowledgeable and genuinely invested in my progress. I'm stronger and more confident than I've ever been.”</blockquote><figcaption>Client Name <span>Verified Google review</span></figcaption></figure>
-      <figure class="slide"><div class="stars">★★★★★</div><blockquote>“A clear plan, consistent support and real accountability. The structure made all the difference.”</blockquote><figcaption>Client Name <span>Verified Google review</span></figcaption></figure>
-      <figure class="slide"><div class="stars">★★★★★</div><blockquote>“The online coaching fits perfectly around my work schedule. Highly recommended.”</blockquote><figcaption>Client Name <span>Verified Google review</span></figcaption></figure>
-      <figure class="slide"><div class="stars">★★★★★</div><blockquote>“Sports massage that actually works. My recovery has improved enormously.”</blockquote><figcaption>Client Name <span>Verified Google review</span></figcaption></figure>
-    </div>
-    <button class="car-btn next" aria-label="Next review">&rsaquo;</button>
-    <div class="dots" id="dots"></div>
-  </div>
+        <!-- Client outcomes summarised from the live business website. -->
+        <div
+          class="carousel"
+          id="carousel"
+          aria-roledescription="carousel"
+          aria-label="Client reviews"
+        >
+          <button class="car-btn prev" aria-label="Previous review">
+            &lsaquo;
+          </button>
+          <div class="track">
+            <figure class="slide active">
+              <p class="eyebrow center">Client progress</p>
+              <blockquote>
+                Built shoulder strength and mobility after a shoulder
+                dislocation.
+              </blockquote>
+              <figcaption>Ron<span>Courage To Grow coaching</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <p class="eyebrow center">Client progress</p>
+              <blockquote>
+                Lost body fat, built confidence and developed lasting
+                consistency.
+              </blockquote>
+              <figcaption>Ray<span>Courage To Grow coaching</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <p class="eyebrow center">Client progress</p>
+              <blockquote>
+                Built sustainable habits, improved fitness and regained
+                confidence.
+              </blockquote>
+              <figcaption>
+                Sinead<span>Courage To Grow coaching</span>
+              </figcaption>
+            </figure>
+            <figure class="slide">
+              <p class="eyebrow center">Client progress</p>
+              <blockquote>
+                Built confidence in the gym, improved fitness, gained muscle and
+                lost fat.
+              </blockquote>
+              <figcaption>
+                Burcu<span>Courage To Grow coaching</span>
+              </figcaption>
+            </figure>
+          </div>
+          <button class="car-btn next" aria-label="Next review">
+            &rsaquo;
+          </button>
+          <div class="dots" id="dots"></div>
+        </div>
 
-  <div class="badges">
-    <div class="badge">★ Google<br><small>5-Star Rated</small></div>
-    <div class="badge">Fully<br><small>Insured</small></div>
-    <div class="badge">DBS<br><small>Checked</small></div>
-    <div class="badge">CIMSPA<br><small>Registered</small></div>
-    <div class="badge">100%<br><small>Satisfaction Focus</small></div>
-  </div>
-</section>
+        <div class="badges">
+          <div class="badge">
+            YMCA Level 3<br /><small>Qualified Personal Trainer</small>
+          </div>
+          <div class="badge">
+            Sports Massage<br /><small>Recovery &amp; Movement</small>
+          </div>
+          <div class="badge">
+            Personalised<br /><small>Training &amp; Support</small>
+          </div>
+        </div>
+      </section>
 
-<section class="steps" id="steps">
-  <p class="eyebrow center">Your journey starts here</p>
-  <h2 class="center">Start Your Transformation in 3 Simple Steps</h2>
-  <div class="step-grid">
-    <div class="step"><span class="num">1</span><h3>Book Your Free Consultation</h3><p>Complete a short application and we'll discuss your goals, experience and the best plan for you.</p></div>
-    <div class="step"><span class="num">2</span><h3>Receive Your Personalised Plan</h3><p>Get a training programme tailored to your goals, lifestyle and current fitness level, plus nutrition guidance where required.</p></div>
-    <div class="step"><span class="num">3</span><h3>Train. Stay Accountable. Get Results.</h3><p>With regular check-ins and expert support, you'll build strength, confidence and lasting discipline.</p></div>
-  </div>
-</section>
+      <section class="steps" id="steps">
+        <p class="eyebrow center">Your journey starts here</p>
+        <h2 class="center">A STRONGER YOU STARTS HERE.</h2>
+        <div class="step-grid">
+          <div class="step">
+            <span class="num">1</span>
+            <h3>Book Your Free Consultation</h3>
+            <p>
+              Complete a short application and we'll discuss your goals,
+              experience and the best plan for you.
+            </p>
+          </div>
+          <div class="step">
+            <span class="num">2</span>
+            <h3>Receive Your Personalised Plan</h3>
+            <p>
+              Get a training programme tailored to your goals, lifestyle and
+              current fitness level, plus nutrition guidance where required.
+            </p>
+          </div>
+          <div class="step">
+            <span class="num">3</span>
+            <h3>Train. Stay Accountable. Get Results.</h3>
+            <p>
+              With regular check-ins and expert support, you'll build strength,
+              confidence and lasting discipline.
+            </p>
+          </div>
+        </div>
+      </section>
 
-<section class="cta" id="book">
-  <h2>Ready to Start?</h2>
-  <p>Take the first step towards becoming stronger, healthier and more disciplined.</p>
-  <a class="btn btn-lg" href="contact.html">Book your free consultation</a>
-</section>
-</main>
+      <section class="cta" id="book">
+        <h2>MAKE YOUR<br />NEXT MOVE.</h2>
+        <p>
+          Take the first step towards becoming stronger, healthier and more
+          disciplined.
+        </p>
+        <a
+          class="btn btn-lg"
+          href="https://www.growwithjay.co.uk/service-page/book-your-free-consultation"
+          >Book your free consultation</a
+        >
+      </section>
+    </main>
 
-<footer class="site-footer">
-  <div class="foot-brand"><span class="logo-ph" aria-hidden="true">LOGO</span> YOUR BRAND NAME</div>
-  <nav aria-label="Footer"><a href="about.html">About</a><a href="sports-massage.html">Sports Massage</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a><a href="#">Refund Policy</a><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Accessibility Statement</a></nav>
-  <div class="social"><a href="#">YouTube</a><a href="#">TikTok</a><a href="#">Instagram</a></div>
-  <p>&copy; <span id="yr">2026</span> Your Brand Name. All rights reserved.</p>
-</footer>
-<script src="script.js"></script>
-</body>
+    <footer class="site-footer">
+      <div class="foot-brand">
+        <img
+          class="business-logo"
+          src="assets/growwithjay/logo.png"
+          alt="Jay Marson — Courage To Grow"
+          width="64"
+          height="64"
+        />
+        <span class="brand-name"
+          >COURAGE TO GROW<sup>™</sup
+          ><small>PERSONAL TRAINING WITH JAY MARSON</small></span
+        >
+      </div>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a
+        ><a href="sports-massage.html">Sports Massage</a
+        ><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a
+        ><a href="https://www.growwithjay.co.uk/blank-3">Refund Policy</a
+        ><a href="https://www.growwithjay.co.uk/blank">Privacy Policy</a
+        ><a href="https://www.growwithjay.co.uk/blank-2"
+          >Terms &amp; Conditions</a
+        ><a href="https://www.growwithjay.co.uk/blank-1"
+          >Accessibility Statement</a
+        >
+      </nav>
+      <div class="social">
+        <a href="https://www.youtube.com/@JayMarson-CTG/shorts"
+          ><img
+            src="assets/growwithjay/youtube.png"
+            alt=""
+            width="20"
+            height="20"
+          />YouTube</a
+        ><a href="https://www.tiktok.com/@fitby_jay"
+          ><img
+            src="assets/growwithjay/tiktok.png"
+            alt=""
+            width="20"
+            height="20"
+          />TikTok</a
+        ><a href="https://www.instagram.com/pt_mrj"
+          ><img
+            src="assets/growwithjay/instagram.png"
+            alt=""
+            width="20"
+            height="20"
+          />Instagram</a
+        >
+      </div>
+      <p>
+        &copy; <span id="yr">2026</span> Courage To Grow™. All rights reserved.
+      </p>
+    </footer>
+    <script src="script.js?v=20261119-nav-close"></script>
+  </body>
 </html>

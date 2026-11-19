@@ -1,0 +1,13 @@
+.DS_Store
+._*
+# Earlier concept media retained locally; the site uses assets/growwithjay/.
+/assets/coach.jpg
+/assets/film-poster.jpg
+/assets/fitness.jpg
+/assets/gym.jpg
+/assets/massage.jpg
+/assets/strength.jpg
+/assets/training.jpg
+/assets/training-film.mp4
+/assets/visual-placeholder.svg
+/assets/weights.jpg
