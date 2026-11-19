@@ -1795,3 +1795,84 @@ html {
     color: var(--accent);
   }
 }
+
+/* Phones and tablets place the coaching copy directly over the original film. */
+@media (max-width: 1200px),
+  (hover: none) and (pointer: coarse) and (max-width: 1366px) {
+  .hero {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    align-items: center;
+    min-height: clamp(600px, 80svh, 880px);
+    background: var(--dark);
+  }
+  .hero-media {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    min-height: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-media video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .hero-media::after {
+    inset: 0;
+    background: linear-gradient(90deg, #000d 0%, #000a 55%, #0005 100%);
+  }
+  .hero-text {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 960px;
+    padding: 72px 6vw;
+  }
+  .hero h1 {
+    font-size: clamp(48px, 7.2vw, 86px);
+  }
+  .hero h1 em {
+    color: #f2a4ab;
+  }
+  .hero .eyebrow {
+    color: #f1f1ec;
+  }
+  .hero .lead {
+    max-width: 520px;
+    color: #edede7;
+    font-size: 16px;
+  }
+  .hero .text-link {
+    color: #fff;
+    border-color: #ffffff80;
+  }
+  .hero-proof,
+  .hero-proof li:first-child {
+    color: #edede7;
+  }
+  .hero .film-caption {
+    display: none;
+  }
+}
+@media (max-width: 680px) {
+  .hero {
+    min-height: calc(100svh - var(--site-header-height, 72px));
+  }
+  .hero-text {
+    padding: 52px 6vw;
+  }
+  .hero h1 {
+    font-size: clamp(36px, 9.5vw, 62px);
+  }
+  .hero .lead {
+    font-size: 15px;
+    line-height: 1.85;
+  }
+  .hero-media::after {
+    background: linear-gradient(180deg, #0009 0%, #000b 55%, #000d 100%);
+  }
+}

@@ -7,3 +7,5 @@ Use black/white surfaces and original burgundy #a8323b accents, Barlow Condensed
 Do not reinstate DBS or 100+ clients coached. Show actual public client outcomes rather than fictional reviews. Maintain complete before/after image composites without cropping. The contact form is a demo; booking links use the live service page.
 
 Navigation uses a single-row header and a scrollable vertical dropdown below 1201px. Keep 50px link targets, outside-tap/Escape closing, keyboard focus restoration, scroll locking and clean breakpoint resets. All five pages were checked at 320, 375, 390, 430, 768, 1024, 1200, 1280 and 1440 CSS pixels, plus 844×390 landscape.
+
+Phones and iPads use hero text over the original full-bleed training film, with a dark contrast overlay. Keep the desktop split hero.
