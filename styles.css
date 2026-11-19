@@ -2250,3 +2250,42 @@ html {
     padding-block: 32px;
   }
 }
+
+.whatsapp-link,
+.footer-contact .whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25d366;
+  border: 1px solid #25d366;
+  color: #052e16;
+  min-height: 50px;
+  padding: 14px 22px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 800;
+  box-shadow:
+    0 4px 0 #128c4a,
+    0 9px 18px #25d36620;
+}
+.whatsapp-link svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.whatsapp-link:hover,
+.footer-contact .whatsapp-link:hover {
+  background: #37e577;
+  border-color: #37e577;
+  color: #052e16;
+  box-shadow:
+    0 7px 0 #128c4a,
+    0 15px 24px #25d36630;
+}
+.whatsapp-link:active {
+  box-shadow: 0 1px 0 #128c4a;
+}
+.footer-contact .whatsapp-link {
+  margin-top: 8px;
+}
